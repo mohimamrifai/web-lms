@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -8,9 +9,9 @@ export default function Home() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
-              <a href="/" className="text-xl font-bold text-gray-800">
+              <Link href="/" className="text-xl font-bold text-gray-800">
                 LMS Platform
-              </a>
+              </Link>
             </div>
             <div className="flex items-center space-x-4">
               <button className="px-4 py-2 text-gray-600 hover:text-gray-800">
@@ -39,7 +40,7 @@ export default function Home() {
               </button>
             </div>
             <div className="md:w-1/2 mt-8 md:mt-0">
-              <img 
+              <Image 
                 src="/hero-image.jpg" 
                 alt="Learning Platform"
                 className="rounded-lg shadow-lg"

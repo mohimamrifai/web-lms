@@ -58,7 +58,7 @@ export default function SignInPage() {
           </div>
         </CardContent>
         <CardFooter>
-            <CardDescription>Don't have an account? <Link href="/signup">Sign up</Link></CardDescription>
+            <CardDescription>Don&apos;t have an account? <Link href="/signup">Sign up</Link></CardDescription>
         </CardFooter>
       </Card>
     </div>

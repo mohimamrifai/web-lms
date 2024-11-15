@@ -1,6 +1,6 @@
 "use client"
 
-import { Home, Settings, Users, FileText, Calendar, Book } from "lucide-react"
+import { Home, Settings, Users, Book } from "lucide-react"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
